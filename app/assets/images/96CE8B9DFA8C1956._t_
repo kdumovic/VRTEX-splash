@@ -30,8 +30,14 @@
 			<path fill="#231F20" d="M406.8,242.4c8.8,0,16.2,7.4,16.2,16.2c0,9.4-7.4,16.2-16.2,16.2c-8.8,0-16.2-7.4-16.2-16.2
 				C390.6,249.8,398,242.4,406.8,242.4z"/>
 		</g>
+		<g>
+		</g>
 	</g>
 </g>
-<text transform="matrix(0.7692 0 0 1 138.9521 393.0654)" display="none" enable-background="new    " font-family="'Futura-CondensedExtraBold'" font-size="122.5714">GRAV   TEAM</text>
-<text transform="matrix(0.6667 0 0 1 351.9933 426.4004)" font-family="'Liberator'" font-size="151.5306">   </text>
+<text transform="matrix(0.7692 0 0 1 138.9517 393.0652)" display="none" enable-background="new    " font-family="'Futura-CondensedExtraBold'" font-size="122.5714">GRAV   TEAM</text>
+<text transform="matrix(0.6667 0 0 1 131.0929 426.4004)" font-family="'Liberator'" font-size="151.5306">GR</text>
+<text transform="matrix(0.6667 0 0 1 242.8901 426.4004)" font-family="'Liberator'" font-size="151.5306">AV</text>
+<text transform="matrix(0.6667 0 0 1 351.9931 426.4004)" font-family="'Liberator'" font-size="151.5306">   </text>
+<text transform="matrix(0.6667 0 0 1 452.3389 426.4004)" font-family="'Liberator'" font-size="151.5306">TE</text>
+<text transform="matrix(0.6667 0 0 1 552.0104 426.4004)" font-family="'Liberator'" font-size="151.5306">AM</text>
 </svg>

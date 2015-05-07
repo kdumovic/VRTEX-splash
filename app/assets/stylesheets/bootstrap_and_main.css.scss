@@ -39,7 +39,7 @@ p {
 
 #emblem-img {
 	position: absolute;
-	content: url('graviteam-badge-no-rocket.svg');
+	content: url('graviteam-badge-no-rocket-no-text.svg');
 	width: 300px;
 	margin-left: 38%;
 }
@@ -49,7 +49,6 @@ p {
 	content: url('rocket.svg');
 	width: 300px;
 	margin-left: 38%;
-	padding-top: 0px;
 }
 
 #moon-img {
@@ -59,6 +58,40 @@ p {
 	padding-top: 75px;
 	padding-left: 30px;
 	margin-left: 38%;
+}
+
+#i-no-dot-img {
+	/*visibility: hidden;*/ /* hidden with jquery in main.js */
+	position: absolute;
+	content: url('i-no-dot.svg');
+	width: 300px;
+	margin-left: 38%;
+	padding-top: 16px;
+}
+
+#i-dot-img {
+	/*visibility: hidden;*/ /* hidden with jquery in main.js */
+	position: absolute;
+	content: url('i-dot.svg');
+	width: 300px;
+	margin-left: 38%;
+	padding-top: 16px;
+}
+
+#grav-img {
+	position: absolute;
+	content: url('grav.svg');
+	width: 300px;
+	margin-left: 38%;
+	padding-top: 16px;
+}
+
+#team-img {
+	position: absolute;
+	content: url('team.svg');
+	width: 300px;
+	margin-left: 38%;
+	padding-top: 16px;
 }
 
 #email-div {
