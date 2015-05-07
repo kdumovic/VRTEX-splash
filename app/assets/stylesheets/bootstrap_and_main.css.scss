@@ -41,20 +41,22 @@ p {
 	position: absolute;
 	content: url('graviteam-badge-no-rocket-no-text.svg');
 	width: 300px;
-	left:0;
-    right:0;
+	left: 0;
+    right: 0;
     margin-left:auto;
     margin-right:auto;
+    bottom: 16%;
 }
 
 #rocket-img {
 	position: absolute;
 	content: url('rocket.svg');
 	width: 300px;
-	left:0;
-    right:0;
+	left: 0;
+    right: 0;
     margin-left:auto;
     margin-right:auto;
+    bottom: 16%;
 }
 
 #moon-img {
@@ -62,10 +64,11 @@ p {
 	content: url('moon-small.png');
 	width: 275px;
 	padding-top: 75px;
-	left:0;
-    right:0;
+	left: 0;
+    right: 0;
     margin-left:auto;
     margin-right:auto;
+    bottom: 16%;
 }
 
 #i-no-dot-img {
@@ -73,10 +76,11 @@ p {
 	position: absolute;
 	content: url('i-no-dot.svg');
 	width: 300px;
-	left:0;
-    right:0;
+	left: 0;
+    right: 0;
     margin-left:auto;
     margin-right:auto;
+    bottom: 16%;
 	padding-top: 16px;
 }
 
@@ -85,10 +89,11 @@ p {
 	position: absolute;
 	content: url('i-dot.svg');
 	width: 300px;
-	left:0;
-    right:0;
+	left: 0;
+    right: 0;
     margin-left:auto;
     margin-right:auto;
+    bottom: 16%;
 	padding-top: 16px;
 }
 
@@ -96,10 +101,11 @@ p {
 	position: absolute;
 	content: url('grav.svg');
 	width: 300px;
-	left:0;
-    right:0;
+	left: 0;
+    right: 0;
     margin-left:auto;
     margin-right:auto;
+    bottom: 16%;
 	padding-top: 16px;
 }
 
@@ -107,10 +113,11 @@ p {
 	position: absolute;
 	content: url('team.svg');
 	width: 300px;
-	left:0;
-    right:0;
+	left: 0;
+    right: 0;
     margin-left:auto;
     margin-right:auto;
+    bottom: 16%;
 	padding-top: 16px;
 }
 
@@ -121,14 +128,23 @@ p {
 	opacity: 0.75;
 }
 
-#email-div {
+#bottom-half {
+	position: absolute;
 	width: 400px;
-	margin: 100px auto;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	top: 97%
+}
+
+#email-div {
 	padding: 20px;
 	background: black;
 	background-color: rgba(0,0,0,0.6);
 	text-align: center;
 	border-radius: 40px;
+	top: 97%;
 }
 
 input[type="email"] {
@@ -162,3 +178,11 @@ input[type="submit"] {
 	font-size: 24px;
 }
 
+#rocket-footer {
+	display: block;
+	content: url('rocket-footer.svg');
+    width: 140px;
+    margin: auto;
+    padding-top: 120px;
+    margin-bottom: 15%;
+}
