@@ -1,5 +1,5 @@
 textChanged = false;
-$(document).ready(function(){
+$(window).load(function(){
 	$('#i-no-dot-img').hide();
 	$('#i-dot-img').hide();
 	$('#rocket-img').css('top', ($('#emblem-img').height() + 92 - $('body').scrollTop()));
@@ -38,7 +38,7 @@ $(window).on('scroll', function(){
  		}
  	} else if ( $('#moon-img').position().top > 277 ) {		
  		if (textChanged) {
- 			 			$('#team-img').animate({
+ 			 $('#team-img').animate({
 			    //opacity: 1.0,
 			    left: "+=10"//,
 			    //height: "toggle"
@@ -52,7 +52,7 @@ $(window).on('scroll', function(){
 		    });
 		    $('#i-dot-img').fadeOut('fast');
 		    $('#i-dot-img').animate({
-			    paddingTop: "0"//,
+			    paddingTop: "16"//,
 		    }, 500, function() {
 		  		// Animation complete.
 		    });

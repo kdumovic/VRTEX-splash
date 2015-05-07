@@ -10863,3 +10863,252 @@ Started GET "/assets/jquery.sequence-min.self-16fb654f144c9689768114a0bf1038fba9
 
 
 Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-07 01:45:26 -0700
+
+
+Started GET "/" for ::1 at 2015-05-07 01:47:07 -0700
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 113ms (Views: 109.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_main.self-a438aae1c443de5e42614bbb5e381ddcf8e513d38a367ac2c4b1295c6f7ec1ce.css?body=1" for ::1 at 2015-05-07 01:47:07 -0700
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-07 01:47:07 -0700
+
+
+Started GET "/assets/main.self-dddfd510c8adca9bcf187dd32ed7a0fb2163dda11906462cb3ad1ad653580bcb.js?body=1" for ::1 at 2015-05-07 01:47:07 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-07 01:47:07 -0700
+
+
+Started GET "/assets/bg-no-logo.png" for ::1 at 2015-05-07 01:47:07 -0700
+
+
+Started GET "/assets/moon-small.png" for ::1 at 2015-05-07 01:47:07 -0700
+
+
+Started GET "/assets/graviteam-badge-no-rocket-no-text.svg" for ::1 at 2015-05-07 01:47:07 -0700
+
+
+Started GET "/assets/i-dot.svg" for ::1 at 2015-05-07 01:47:07 -0700
+
+
+Started GET "/assets/rocket.svg" for ::1 at 2015-05-07 01:47:07 -0700
+
+
+Started GET "/assets/i-no-dot.svg" for ::1 at 2015-05-07 01:47:07 -0700
+
+
+Started GET "/assets/team.svg" for ::1 at 2015-05-07 01:47:07 -0700
+
+
+Started GET "/assets/grav.svg" for ::1 at 2015-05-07 01:47:07 -0700
+
+
+Started GET "/" for ::1 at 2015-05-07 01:48:35 -0700
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 343ms (Views: 342.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_main.self-a438aae1c443de5e42614bbb5e381ddcf8e513d38a367ac2c4b1295c6f7ec1ce.css?body=1" for ::1 at 2015-05-07 01:48:35 -0700
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-07 01:48:35 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-07 01:48:35 -0700
+
+
+Started GET "/assets/main.self-6f6a8bcf5e2f92515972c3e7ff6a2a394eedcab3394f1f996c0e27f39f52ecf4.js?body=1" for ::1 at 2015-05-07 01:48:35 -0700
+
+
+Started GET "/assets/moon-small.png" for ::1 at 2015-05-07 01:48:35 -0700
+
+
+Started GET "/assets/bg-no-logo.png" for ::1 at 2015-05-07 01:48:36 -0700
+
+
+Started GET "/assets/i-no-dot.svg" for ::1 at 2015-05-07 01:48:36 -0700
+
+
+Started GET "/assets/i-dot.svg" for ::1 at 2015-05-07 01:48:36 -0700
+
+
+Started GET "/assets/rocket.svg" for ::1 at 2015-05-07 01:48:36 -0700
+
+
+Started GET "/assets/grav.svg" for ::1 at 2015-05-07 01:48:36 -0700
+
+
+Started GET "/assets/graviteam-badge-no-rocket-no-text.svg" for ::1 at 2015-05-07 01:48:36 -0700
+
+
+Started GET "/assets/team.svg" for ::1 at 2015-05-07 01:48:36 -0700
+
+
+Started GET "/" for ::1 at 2015-05-07 01:48:47 -0700
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 401ms (Views: 399.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_main.self-a438aae1c443de5e42614bbb5e381ddcf8e513d38a367ac2c4b1295c6f7ec1ce.css?body=1" for ::1 at 2015-05-07 01:48:47 -0700
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-07 01:48:47 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-07 01:48:47 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-05-07 01:48:47 -0700
+
+
+Started GET "/assets/jquery.sequence-min.self-16fb654f144c9689768114a0bf1038fba95d4e70b2c1e4fe64ffaf855a6668ae.js?body=1" for ::1 at 2015-05-07 01:48:47 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-07 01:48:47 -0700
+
+
+Started GET "/assets/jquery-1.11.3.min.self-ad66c584c2469d2bb527ba7aef5893549f1554ccc8ab3ccb43bd09ce8c3bf7a1.js?body=1" for ::1 at 2015-05-07 01:48:47 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-07 01:48:47 -0700
+
+
+Started GET "/assets/main.self-dddfd510c8adca9bcf187dd32ed7a0fb2163dda11906462cb3ad1ad653580bcb.js?body=1" for ::1 at 2015-05-07 01:48:47 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-05-07 01:48:47 -0700
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-07 01:48:48 -0700
+
+
+Started GET "/assets/bg-no-logo.png" for ::1 at 2015-05-07 01:48:48 -0700
+
+
+Started GET "/assets/moon-small.png" for ::1 at 2015-05-07 01:48:48 -0700
+
+
+Started GET "/assets/rocket.svg" for ::1 at 2015-05-07 01:48:48 -0700
+
+
+Started GET "/assets/graviteam-badge-no-rocket-no-text.svg" for ::1 at 2015-05-07 01:48:48 -0700
+
+
+Started GET "/assets/i-no-dot.svg" for ::1 at 2015-05-07 01:48:48 -0700
+
+
+Started GET "/assets/i-dot.svg" for ::1 at 2015-05-07 01:48:48 -0700
+
+
+Started GET "/assets/grav.svg" for ::1 at 2015-05-07 01:48:48 -0700
+
+
+Started GET "/assets/team.svg" for ::1 at 2015-05-07 01:48:48 -0700
+
+
+Started GET "/" for ::1 at 2015-05-07 01:49:28 -0700
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 364ms (Views: 363.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_main.self-a438aae1c443de5e42614bbb5e381ddcf8e513d38a367ac2c4b1295c6f7ec1ce.css?body=1" for ::1 at 2015-05-07 01:49:29 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-05-07 01:49:29 -0700
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-07 01:49:29 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-07 01:49:29 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-07 01:49:29 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-07 01:49:29 -0700
+
+
+Started GET "/assets/jquery-1.11.3.min.self-ad66c584c2469d2bb527ba7aef5893549f1554ccc8ab3ccb43bd09ce8c3bf7a1.js?body=1" for ::1 at 2015-05-07 01:49:29 -0700
+
+
+Started GET "/assets/jquery.sequence-min.self-16fb654f144c9689768114a0bf1038fba95d4e70b2c1e4fe64ffaf855a6668ae.js?body=1" for ::1 at 2015-05-07 01:49:29 -0700
+
+
+Started GET "/assets/main.self-81279f7ff475cc540fb11aa65cb3029155ffb7cc7ec99c75e6bd7e556ec92e7b.js?body=1" for ::1 at 2015-05-07 01:49:29 -0700
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-07 01:49:29 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-05-07 01:49:29 -0700
+
+
+Started GET "/assets/bg-no-logo.png" for ::1 at 2015-05-07 01:49:29 -0700
+
+
+Started GET "/assets/graviteam-badge-no-rocket-no-text.svg" for ::1 at 2015-05-07 01:49:29 -0700
+
+
+Started GET "/assets/moon-small.png" for ::1 at 2015-05-07 01:49:29 -0700
+
+
+Started GET "/assets/i-dot.svg" for ::1 at 2015-05-07 01:49:29 -0700
+
+
+Started GET "/assets/i-no-dot.svg" for ::1 at 2015-05-07 01:49:29 -0700
+
+
+Started GET "/assets/rocket.svg" for ::1 at 2015-05-07 01:49:29 -0700
+
+
+Started GET "/assets/grav.svg" for ::1 at 2015-05-07 01:49:29 -0700
+
+
+Started GET "/assets/team.svg" for ::1 at 2015-05-07 01:49:29 -0700
+
+
+Started GET "/" for ::1 at 2015-05-07 01:51:22 -0700
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 171ms (Views: 170.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap_and_main.self-a438aae1c443de5e42614bbb5e381ddcf8e513d38a367ac2c4b1295c6f7ec1ce.css?body=1" for ::1 at 2015-05-07 01:51:23 -0700
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-05-07 01:51:23 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-05-07 01:51:23 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-05-07 01:51:23 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-05-07 01:51:23 -0700
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-05-07 01:51:23 -0700
+
+
+Started GET "/assets/jquery-1.11.3.min.self-ad66c584c2469d2bb527ba7aef5893549f1554ccc8ab3ccb43bd09ce8c3bf7a1.js?body=1" for ::1 at 2015-05-07 01:51:23 -0700
+
+
+Started GET "/assets/main.self-ed25e6ec5bd95f482373535e1fa937c2799379e3204a2e526fdb6ac0f02e377a.js?body=1" for ::1 at 2015-05-07 01:51:23 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-05-07 01:51:23 -0700
+
+
+Started GET "/assets/jquery.sequence-min.self-16fb654f144c9689768114a0bf1038fba95d4e70b2c1e4fe64ffaf855a6668ae.js?body=1" for ::1 at 2015-05-07 01:51:23 -0700
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-05-07 01:51:23 -0700
