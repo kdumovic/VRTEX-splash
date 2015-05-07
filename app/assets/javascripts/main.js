@@ -3,6 +3,14 @@ $(window).load(function(){
 	$('#i-no-dot-img').hide();
 	$('#i-dot-img').hide();
 	$('#rocket-img').css('top', ($('#emblem-img').height() + 92 - $('body').scrollTop()));
+	$('input[type="email"]').on('keyup', function() {
+		var key = event.keyCode || event.charCode;
+		if( key == 8 || key == 46 ) {
+			$('input[type="submit"]').css('border-color', 'rgba(95,95,95,0.75)');
+		} else {
+			$('input[type="submit"]').css('border-color', 'red');
+		}
+    });
 });
 window.setInterval(function() {
 	//console.log($('#moon-img').position());
@@ -11,17 +19,16 @@ $(window).on('scroll', function(){
  	$('#moon-img').css('top', ($('#emblem-img').height() + 92 - $('body').scrollTop()));
  	$('#rocket-img').css('top', ($('#emblem-img').height() + 92 - $('body').scrollTop()));
  	if ( $('#moon-img').position().top < 251 ) {
- 		console.log('TRIGGER!');
  		if (!textChanged) {
  			$('#team-img').animate({
 			    //opacity: 1.0,
-			    left: "-=10"//,
+			    left: "-=14"//,
 			    //height: "toggle"
 		    }, 1000, function() {
 		  		// Animation complete.
 		    });
 		    $('#grav-img').animate({
-			    left: "+=10"//,
+			    left: "+=14"//,
 		    }, 1000, function() {
 		  		// Animation complete.
 		    });
@@ -40,13 +47,13 @@ $(window).on('scroll', function(){
  		if (textChanged) {
  			 $('#team-img').animate({
 			    //opacity: 1.0,
-			    left: "+=10"//,
+			    left: "+=14"//,
 			    //height: "toggle"
 		    }, 1000, function() {
 		  		// Animation complete.
 		    });
 		    $('#grav-img').animate({
-			    left: "-=10"//,
+			    left: "-=14"//,
 		    }, 1000, function() {
 		  		// Animation complete.
 		    });
@@ -62,4 +69,4 @@ $(window).on('scroll', function(){
  			textChanged = false;
  		}
  	}
-}); 
+});
