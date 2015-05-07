@@ -2,7 +2,7 @@ textChanged = false;
 $(window).load(function(){
 	$('#i-no-dot-img').hide();
 	$('#i-dot-img').hide();
-	$('#rocket-img').css('top', ($('#emblem-img').height() + 92 - $('body').scrollTop()));
+	//$('#rocket-img').css('top', ($('#emblem-img').height() + 92 - $('body').scrollTop()));
 	$('input[type="email"]').on('keyup', function() {
 		var key = event.keyCode || event.charCode;
 		if( key == 8 || key == 46 ) {
@@ -15,6 +15,7 @@ $(window).load(function(){
 window.setInterval(function() {
 	//console.log($('#moon-img').position());
 }, 2000);
+/*
 $(window).on('scroll', function(){
  	$('#moon-img').css('top', ($('#emblem-img').height() + 92 - $('body').scrollTop()));
  	$('#rocket-img').css('top', ($('#emblem-img').height() + 92 - $('body').scrollTop()));
@@ -70,3 +71,4 @@ $(window).on('scroll', function(){
  		}
  	}
 });
+*/
