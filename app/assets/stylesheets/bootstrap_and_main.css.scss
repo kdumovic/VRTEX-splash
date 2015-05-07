@@ -1,1 +1,73 @@
-@import 'bootstrap'
+@import 'bootstrap';
+
+body {
+	background: url('bg-no-logo.png');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	line-height: 1.5;
+	color: white;
+}
+
+.container {
+	visibility: hidden;
+	width: 350px;
+	margin: 100px auto;
+	padding: 20px;
+	background: black;
+	background-color: rgba(0,0,0,0.6);
+	text-align: center;
+	border-radius: 40px;
+}
+
+h1 {
+	font-family: 'Helvetica Neue', Helvetica;
+	font-weight: 100; /* for thinner font */
+	font-size: 60px;
+}
+
+h2 {
+	font-family: 'Helvetica Neue', Helvetica;
+	font-weight: 100; /* for thinner font */
+	font-size: 40px;
+}
+
+p {
+	font-family: arial, Helvetica;
+	font-weight: 200;
+}
+
+#emblem-img {
+	position: absolute;
+	content: url('graviteam-badge-no-rocket.svg');
+	width: 300px;
+	margin-left: 38%;
+}
+
+#rocket-img {
+	position: absolute;
+	content: url('rocket.svg');
+	width: 300px;
+	margin-left: 38%;
+	padding-top: 0px;
+}
+
+#moon-img {
+	position: absolute;
+	content: url('moon-small.png');
+	width: 275px;
+	padding-top: 75px;
+	padding-left: 30px;
+	margin-left: 38%;
+}
+
+#email-div {
+	width: 350px;
+	margin: 100px auto;
+	padding: 20px;
+	background: black;
+	background-color: rgba(0,0,0,0.6);
+	text-align: center;
+	border-radius: 40px;
+}
+
