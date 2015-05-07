@@ -1,8 +1,12 @@
 textChanged = false;
+up_px_threshold = null;
+down_px_threshold = null;
+
 $(window).load(function(){
 	$('#i-no-dot-img').hide();
 	$('#i-dot-img').hide();
-	//$('#rocket-img').css('top', ($('#emblem-img').height() + 92 - $('body').scrollTop()));
+	$('#rocket-img').css('top', ($('#emblem-img').height() + $('#emblem-img').position().top - 338 - $('body').scrollTop()));
+	$('#moon-img').css('top', ($('#emblem-img').height() + $('#emblem-img').position().top - 338 - $('body').scrollTop()));
 	$('input[type="email"]').on('keyup', function() {
 		var key = event.keyCode || event.charCode;
 		if( key == 8 || key == 46 ) {
@@ -11,15 +15,25 @@ $(window).load(function(){
 			$('input[type="submit"]').css('border-color', 'red');
 		}
     });
+    up_px_threshold = window.innerHeight * 0.25; //0.31
+	down_px_threshold = window.innerHeight * 0.2; //0.25
 });
-window.setInterval(function() {
-	//console.log($('#moon-img').position());
-}, 2000);
-/*
+$(window).resize(function() {
+	$('#rocket-img').css('top', ($('#emblem-img').height() + $('#emblem-img').position().top - 338 - $('body').scrollTop()));
+	$('#moon-img').css('top', ($('#emblem-img').height() + $('#emblem-img').position().top - 338 - $('body').scrollTop()));
+	up_px_threshold = window.innerHeight * 0.31;
+	down_px_threshold = window.innerHeight * 0.25;
+});
+
+// window.setInterval(function() {
+// 	//console.log($('#moon-img').position());
+// 	//console.log( $('#emblem-img').position().top );
+// }, 2000);
+
 $(window).on('scroll', function(){
- 	$('#moon-img').css('top', ($('#emblem-img').height() + 92 - $('body').scrollTop()));
- 	$('#rocket-img').css('top', ($('#emblem-img').height() + 92 - $('body').scrollTop()));
- 	if ( $('#moon-img').position().top < 251 ) {
+ 	$('#moon-img').css('top', ($('#emblem-img').height() + $('#emblem-img').position().top - 338 - $('body').scrollTop()));
+ 	$('#rocket-img').css('top', ($('#emblem-img').height() + $('#emblem-img').position().top - 338 - $('body').scrollTop()));
+ 	if ( $('#moon-img').position().top < down_px_threshold ) {
  		if (!textChanged) {
  			$('#team-img').animate({
 			    //opacity: 1.0,
@@ -35,7 +49,7 @@ $(window).on('scroll', function(){
 		    });
 		    $('#i-dot-img').fadeIn('fast');
 		    $('#i-dot-img').animate({
-			    paddingTop: "30"//,
+			    bottom: "13.5%"//,
 		    }, 500, function() {
 		  		// Animation complete.
 		    });
@@ -44,7 +58,7 @@ $(window).on('scroll', function(){
 		    });
  			textChanged = true;
  		}
- 	} else if ( $('#moon-img').position().top > 277 ) {		
+ 	} else if ( $('#moon-img').position().top > up_px_threshold ) {		
  		if (textChanged) {
  			 $('#team-img').animate({
 			    //opacity: 1.0,
@@ -60,7 +74,7 @@ $(window).on('scroll', function(){
 		    });
 		    $('#i-dot-img').fadeOut('fast');
 		    $('#i-dot-img').animate({
-			    paddingTop: "16"//,
+			    bottom: "15%"//,
 		    }, 500, function() {
 		  		// Animation complete.
 		    });
@@ -71,4 +85,3 @@ $(window).on('scroll', function(){
  		}
  	}
 });
-*/
