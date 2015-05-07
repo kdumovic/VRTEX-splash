@@ -52,10 +52,10 @@
 	<div id="email-div">
 		<img id="scroll-up-arrow"/>
 		<h1>JOIN OUR MAILING LIST</h1>
-		<form action="">
-			<input type="email" pattern="[^ @]*@[^ @]*" value="" onchange="">
-			<input type="submit" value="SUBMIT">
-		</form>
+    <%= form_for ListMember.new, url: "/join" do |f| %>
+      <%= f.email_field :email %>
+      <%= f.submit "JOIN" %>
+    <% end %>
 	</div>
 	<div class="rocket-footer-div">
 		<img id="rocket-footer" />
