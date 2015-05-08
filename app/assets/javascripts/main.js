@@ -15,14 +15,14 @@ $(window).load(function(){
 			$('input[type="submit"]').css('border-color', 'red');
 		}
     });
-    up_px_threshold = window.innerHeight * 0.25; //0.31
-	down_px_threshold = window.innerHeight * 0.2; //0.25
+    up_px_threshold = window.innerHeight * 0.35; //0.31
+	down_px_threshold = window.innerHeight * 0.30; //0.25
 });
 $(window).resize(function() {
 	$('#rocket-img').css('top', ($('#emblem-img').height() + $('#emblem-img').position().top - 338 - $('body').scrollTop()));
 	$('#moon-img').css('top', ($('#emblem-img').height() + $('#emblem-img').position().top - 338 - $('body').scrollTop()));
-	up_px_threshold = window.innerHeight * 0.31;
-	down_px_threshold = window.innerHeight * 0.25;
+	up_px_threshold = window.innerHeight * 0.35;
+	down_px_threshold = window.innerHeight * 0.30;
 });
 
 // window.setInterval(function() {
@@ -78,7 +78,7 @@ $(window).on('scroll', function(){
 		    }, 500, function() {
 		  		// Animation complete.
 		    });
-		   	$('#i-no-dot-img').fadeOut('slow', function() {
+		   	$('#i-no-dot-img').fadeOut('fast', function() {
 		  		// Animation complete.
 		    });
  			textChanged = false;
