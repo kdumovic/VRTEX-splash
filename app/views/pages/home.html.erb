@@ -21,36 +21,36 @@
 -->
 
 <div class="moon-div">
-	<img id="moon-img" />
+    <%= image_tag("moon-small.png", :id => "moon-img") %>
 </div>
 
 <div class="emblem-div">
-	<img id="emblem-img" />
+    <%= image_tag("graviteam-badge-no-rocket-no-text.svg", :id => "emblem-img") %>
 </div>
 
 <div class="rocket-div">
-	<img id="rocket-img" />
+    <%= image_tag("rocket.svg", :id => "rocket-img") %>
 </div>
 
 <div class="i-no-dot">
-	<img id="i-no-dot-img" />
+    <%= image_tag("i-no-dot.svg", :id => "i-no-dot-img") %>
 </div>
 
 <div class="i-dot-div">
-	<img id="i-dot-img" />
+    <%= image_tag("i-dot.svg", :id => "i-dot-img") %>
 </div>
 
 <div class="grav-div">
-	<img id="grav-img" />
+    <%= image_tag("grav.svg", :id => "grav-img") %>
 </div>
 
 <div class="team-div">
-	<img id="team-img" />
+    <%= image_tag("team.svg", :id => "team-img") %>
 </div>
 
 <div id="bottom-half">
 	<div id="email-div">
-		<img id="scroll-up-arrow"/>
+        <%= image_tag("scroll_up.png", :id => "scroll-up-arrow") %>
 		<h1>JOIN OUR MAILING LIST</h1>
     <%= form_for ListMember.new, url: "/join" do |f| %>
       <%= f.email_field :email %>
@@ -58,6 +58,6 @@
     <% end %>
 	</div>
 	<div class="rocket-footer-div">
-		<img id="rocket-footer" />
+        <%= image_tag("rocket-footer.svg", :id => "rocket-footer") %>
 	</div>
 </div>

@@ -39,7 +39,6 @@ p {
 
 #emblem-img {
 	position: absolute;
-	content: url('graviteam-badge-no-rocket-no-text.svg');
 	width: 300px;
 	left: 0;
     right: 0;
@@ -50,7 +49,6 @@ p {
 
 #rocket-img {
 	position: absolute;
-	content: url('rocket.svg');
 	width: 300px;
 	left: 0;
     right: 0;
@@ -60,7 +58,6 @@ p {
 
 #moon-img {
 	position: absolute;
-	content: url('moon-small.png');
 	width: 275px;
 	padding-top: 75px;
 	left: 0;
@@ -71,9 +68,8 @@ p {
 }
 
 #i-no-dot-img {
-	/*visibility: hidden;*/ /* hidden with jquery in main.js */
+	/* hidden with jquery in main.js */
 	position: absolute;
-	content: url('i-no-dot.svg');
 	width: 300px;
 	left: 0;
     right: 0;
@@ -83,9 +79,8 @@ p {
 }
 
 #i-dot-img {
-	/*visibility: hidden;*/ /* hidden with jquery in main.js */
+	/* hidden with jquery in main.js */
 	position: absolute;
-	content: url('i-dot.svg');
 	width: 300px;
 	left: 0;
     right: 0;
@@ -96,7 +91,6 @@ p {
 
 #grav-img {
 	position: absolute;
-	content: url('grav.svg');
 	width: 300px;
 	left: 0;
     right: 0;
@@ -107,7 +101,6 @@ p {
 
 #team-img {
 	position: absolute;
-	content: url('team.svg');
 	width: 300px;
 	left: 0;
     right: 0;
@@ -117,7 +110,6 @@ p {
 }
 
 #scroll-up-arrow {
-	content: url('scroll_up.png');
 	width: 100px;
 	margin-top: -30px;
 	opacity: 0.75;
@@ -175,7 +167,6 @@ input[type="submit"] {
 
 #rocket-footer {
 	display: block;
-	content: url('rocket-footer.svg');
     width: 140px;
     margin: auto;
     padding-top: 120px;
