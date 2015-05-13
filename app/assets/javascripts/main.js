@@ -3,8 +3,6 @@ var up_px_threshold = null;
 var down_px_threshold = null;
 
 $(window).load(function () {
-	$('#i-no-dot-img').hide();
-	$('#i-dot-img').hide();
 	$('#rocket-img').css('top', ($('#emblem-img').height() + $('#emblem-img').position().top - 338 - $('body').scrollTop()));
 	$('#moon-img').css('top', ($('#emblem-img').height() + $('#emblem-img').position().top - 338 - $('body').scrollTop()));
 	$('input[type="email"]').on('keyup', function () {

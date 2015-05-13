@@ -69,7 +69,7 @@ p {
 }
 
 #i-no-dot-img {
-	/* hidden with jquery in main.js */
+	display: none;
 	position: absolute;
 	width: 300px;
 	left: 0;
@@ -80,7 +80,7 @@ p {
 }
 
 #i-dot-img {
-	/* hidden with jquery in main.js */
+	display: none;
 	position: absolute;
 	width: 300px;
 	left: 0;

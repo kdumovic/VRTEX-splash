@@ -25,3 +25,4 @@ pickle-email-*.html
 *.swo
 
 .env
+/vendor/cache
