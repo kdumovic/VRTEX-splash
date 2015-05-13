@@ -27,5 +27,12 @@
 <text transform="matrix(0.6667 0 0 1 242.8906 426.4004)" display="none" enable-background="new    " font-family="'Liberator'" font-size="151.5306">AV</text>
 <text transform="matrix(0.6667 0 0 1 452.3388 426.4004)" display="none" enable-background="new    " font-family="'Liberator'" font-size="151.5306">TE</text>
 <text transform="matrix(0.6667 0 0 1 552.0106 426.4004)" display="none" enable-background="new    " font-family="'Liberator'" font-size="151.5306">AM</text>
-<text transform="matrix(0.8475 0 0 1 459.3994 416.8828)" font-family="'Impact'" font-size="111.2571">TEAM</text>
+<g enable-background="new    ">
+	<path d="M502.3,328.9v17.6h-11.5v70.4h-19.4v-70.4H460v-17.6H502.3z"/>
+	<path d="M506.7,328.9H539v17.6h-12.9v16.7h12.1v16.7h-12.1v19.3h14.2v17.6h-33.6V328.9z"/>
+	<path d="M579.4,328.9l11.1,88h-19.8l-1-15.8h-6.9l-1.2,15.8h-20l9.9-88H579.4z M569.1,385.5c-1-10-2-22.3-3-36.9
+		c-2,16.8-3.2,29.2-3.7,36.9H569.1z"/>
+	<path d="M653.6,328.9v88h-16.9l0-59.4l-6.7,59.4h-12l-7.1-58l0,58h-16.9v-88h25.1c0.7,5.3,1.5,11.5,2.3,18.7l2.8,22.4l4.5-41.1
+		H653.6z"/>
+</g>
 </svg>
